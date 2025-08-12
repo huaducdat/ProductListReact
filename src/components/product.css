@@ -1,0 +1,18 @@
+#product-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+#product-page h1{
+    width: 100%;
+    text-align: center;
+}
+#product-page a{
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 9px;
+}

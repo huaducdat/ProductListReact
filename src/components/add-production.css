@@ -1,0 +1,20 @@
+#add-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.product-name{
+    font-size: 1.2rem;
+    border: none;
+}
+#add-products a{
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
