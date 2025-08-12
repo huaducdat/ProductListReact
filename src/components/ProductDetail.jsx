@@ -2,7 +2,7 @@ import axios from "axios";
 import { use, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import './product.css';
+import "./product.css";
 
 function ProductDetail() {
   const { id } = useParams();
@@ -21,8 +21,11 @@ function ProductDetail() {
   if (!data) return <p>Can't find the Product.</p>;
   return (
     <section id="product-page">
-      <Link to="/products">← Back to Products</Link>
-      <h1>{data.title}</h1>
+      <div>
+        {" "}
+        <Link to="/products">← Back to Products</Link>
+        <h1>{data.title}</h1>
+      </div>
       <p>
         <b>Price:</b> ${data.price}
       </p>

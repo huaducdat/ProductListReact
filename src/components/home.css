@@ -1,24 +1,40 @@
-#home{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    justify-self: center;
-    align-self: center;
-    flex-direction: column;
-    gap: 15px;
-    width: 100%;
+:root{
+    --black-gradiant-color: rgb(196, 196, 196);
 }
-#home h1{
-    width: 100%;
-    text-align: center;
-    background-color: rgb(36, 36, 36);
-    color: white;
+#home {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    var(--black-gradiant-color) 0%,
+    rgb(255, 255, 255) 40%,
+    rgb(255, 255, 255) 60%,
+    var(--black-gradiant-color) 100%
+  ) !important;
+  min-height: 100vh;
 }
-a{
-    /* text-decoration: none; */
-    color: black;
-    font-weight: bold;
+#home h1 {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(36, 36, 36);
+  color: white;
 }
-a:hover{
-    color: blue;
+a {
+  /* text-decoration: none; */
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  color: blue;
+}
+#home img {
+  width: 15ch;
+  margin-top: 30px;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, .6));
 }
