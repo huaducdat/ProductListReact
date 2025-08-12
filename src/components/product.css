@@ -22,9 +22,10 @@
   background-color: white;
 }
 #product-page img {
-  background-color: white;
+  /* background-color: white; */
   border-radius: 3px;
   /* box-shadow: 0 0 6px rgba(0, 0, 0, 0.3); */
+  filter: drop-shadow(6px 3px 3px rgba(0, 0, 0, 0.3));
 }
 #product-page div {
   width: 100%;
