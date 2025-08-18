@@ -53,7 +53,7 @@ function ProductDetail() {
   return (
     <Container
       maxWidth="false"
-      sx={{ m: 0, p: 0, minHeight: "100vh" }}
+      sx={{ m: 0, p: 0, minHeight: "100vh", paddingBottom: 2 }}
       disableGutters
     >
       <Stack sx={{ borderBottom: "2px solid black" }}>
